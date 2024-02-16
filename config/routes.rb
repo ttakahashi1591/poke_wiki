@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "/", to: "welcome#index"
+
+  get "/pocket_monsters", to: "pocket_monsters#index"
 end
