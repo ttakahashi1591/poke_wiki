@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Landing Page", type: :feature do
+RSpec.describe "Welcome Page", type: :feature do
   it "User visits Welcome Page" do
     visit "/"
 
